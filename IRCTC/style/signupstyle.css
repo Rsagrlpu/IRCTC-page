@@ -1,0 +1,85 @@
+body{
+	background-image: url("D:\\Study\\web-project\\IRCTC\\Image\\registration.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+form
+{
+	margin: 0 auto;
+	width: 80%;
+}
+
+ul
+{
+	padding: 0;
+	list-style: none;
+}
+
+li
+{
+	display: inline;
+}
+
+hr{
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+#heading
+{
+	font-family: 'PT Sans Narrow', sans-serif;
+	color: blue;
+}
+
+label
+{
+	padding-left: 20px;
+}
+
+
+label span{
+	display: inline-block;
+	width: 200px;
+}
+
+input{
+	margin-left: 30px;
+	width: 200px;
+}
+
+li input{
+	margin-left: -50px;	
+}
+
+li label{
+	margin-left: -100px;
+}
+
+select
+{
+	width: 200px;
+	margin-left: 30px;
+}
+
+#checkbox{
+	padding-left: 0px;
+	width: 20px;
+}
+
+button{
+	border: none;
+	width: 120px;
+	border-radius: 3px;
+	height: 30px;
+	box-shadow: 5px 3px 3px 3px #888888;
+	transform: translateY(20);
+}
+button:hover{
+	transform: translate3d(-2px,-2px,-2px);
+	color: white;
+	background-color: #7d7979;
+	border-radius: 0px;
+}

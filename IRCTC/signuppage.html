@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="D:\Study\web-project\IRCTC\style\signupstyle.css">
+
+	<!--for fonts-->
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+	<title>Signup</title>
+</head>
+<body>
+	<header>
+		
+	</header>
+	<nav>
+		
+	</nav>
+	<main>
+		<form>
+			<div>
+				<h1 id="heading">Registration</h1>
+			</div>
+			<hr>
+			<section>
+				<div>
+					<p><strong>GARBAGE/JUNK VALUES IN PROFILE MAY LEAD TO DEACTIVATION</strong></p>
+					<p>Please use a valid E-mail ID and mobile number in registraion.</p>
+				</div>
+			</section>
+			<hr>
+
+			<section>
+					<div>
+						<label for="userName">
+							<strong><span>User Name<abbr title="required">*</abbr>:</span></strong>
+						</label>
+						<input type="text" name="userName" placeholder="USERNAME" required autofocus id="userName">
+
+						<label for="password">
+							<strong><span>Password<abbr title="required">*</abbr> :</span></strong>
+						</label>
+						<input type="password" name="password" placeholder="password" id="password" required>
+					</div>
+			</section>
+			<hr>
+
+			<section>
+				<div>
+					<label for="confirmPassword">
+						<strong><span>Confirm Password<abbr title="required">*</abbr> :</span></strong>
+					</label>
+					<input type="password" name="confirmPassword" id="confirmPassword" placeholder="confirmPassword" required>
+				</div>
+			</section>
+			<hr>
+
+			<section>
+				<h2>Personal Details</h2>
+				<div>
+					<label for="name">
+							<strong><span>Name<abbr title="required">*</abbr> :</span></strong>
+					</label>
+					<input type="text" name="firstName" placeholder="FIRSTNAME">
+					<input type="text" name="middleName" placeholder="MIDDLENAME">
+					<input type="text" name="lastName" placeholder="LASTNAME">
+				</div>
+			</section>
+			<hr>
+
+			<section>
+				<div>
+					<label>
+						<strong><span>Gender<abbr title="required">*</abbr> :</span></strong>
+					</label>
+
+					<ul>
+						<li>
+							<input type="radio" name="title" id="male">
+							<label for="male">Male</label>
+						</li>
+
+						<li>
+							<input type="radio" name="title" id="female">
+							<label for="female">Female</label>
+						</li>
+
+						<li>
+							<input type="radio" name="title" id="transgender">
+							<label for="transgender">Transgender</label>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<hr>
+
+			<section>
+					<div>
+						<label for="dateOfBirth">
+						<strong><span>Date Of Birth<abbr title="required">*</abbr> :</span></strong>
+						</label>
+
+						<input type="date" name="dateOfBirth">
+
+						<label for="Occupation">
+						<strong><span>Occupation<abbr title="required">*</abbr> :</span></strong>
+						</label>
+
+						<select name="Occupation" id="Occupation">
+							<option selected>Goverment</option>
+							<option>Public</option>
+							<option>Private</option>
+							<option>Student</option>
+							<option>Professional</option>
+							<option>Self Employed</option>
+							<option>Other</option>
+						</select>
+					</div>
+			</section>
+			<hr>
+
+			<section>
+				<div>
+					<label>
+						<strong><span>Marrital Status:</span></strong>
+					</label>
+
+					<ul>
+						<li>
+							<input type="radio" name="married" id="married">
+							<label for="married">Married</label>
+						</li>
+						<li>
+							<input type="radio" name="unmarried" id="unmarried">
+							<label for="unmarried">Unmarried</label>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<section>
+				<div>
+					<label for="address1">
+						<strong><span>Floor/Door/Block No.<abbr title="required">*</abbr> :</span></strong>
+					</label>
+					<input type="text" name="address1" id="address1" placeholder="Floor/Door/Block No.">
+
+					<label for="address2">
+						<strong><span>Street/Lane:</span></strong>
+					</label>
+					<input type="text" name="address2" id="address2" placeholder="Street/Lane:">
+				</div>
+			</section>
+			<hr>
+
+			<section>
+				<div>
+					<label for="areaDetails">
+						<strong><span>Area/Locality</span></strong>
+					</label>
+					<input type="text" name="areaDetails" id="areaDetails" placeholder="Area/Locality">
+
+					<label for="pincode">
+						<strong><span>Pincode</span></strong>
+					</label>
+					<input type="text" name="Pincode" id="Pincode" placeholder="Pincode">
+				</div>
+			</section>
+			<hr>
+
+			<section>
+				<div>
+					<label for="state">
+						<strong><span>State<abbr title="required">*</abbr> :</span></strong>
+					</label>
+					<select name="state" id="state">
+						<option>MadhyaPradesh</option>
+						<option>Uttarpradesh</option>
+						<option>Gujarat</option>
+						<option>Chattisgarh</option>
+						<option>Bihar</option>
+					</select>
+
+					<label for="city">
+						<strong><span>City<abbr title="required">*</abbr> :</span></strong>
+					</label>
+					<input type="text" name="city" id="city" placeholder="City">
+				</div>
+			</section>
+			<hr>
+
+			<section>
+				<div>
+					<label for="phoneNumber">
+						<strong><span>Phone Number<abbr title="required">*</abbr> :</span></strong>
+					</label>
+					<input type="number" name="phoneNumber">
+				</div>
+			</section>
+			<hr>
+
+			<section>
+				<p>
+					<input type="checkbox" name="terms" id="checkbox">
+					I have read and agree with the Terms and Conditions. and also agree to receive promotional emails/SMS/offers/announcements from IRCTC & associated partners
+				</p>
+			</section>
+			<hr>
+
+			<div >
+				<button type="submit">REGISTSER</button>
+			</div>
+
+			<br>
+			<br>
+			<br>
+		</form>
+	</main>
+</body>
+</html>	
